@@ -1,7 +1,6 @@
 ------------------------------------------------------------------------------
 -- import.lua
--- key generaration for RSA encryption
+-- global imports
 ------------------------------------------------------------------------------
-
 
 _G.bigint_prime = loadfile("bigint_prime.lua")
