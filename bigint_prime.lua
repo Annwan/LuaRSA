@@ -1,4 +1,3 @@
-local bigint = loadfile('bigint.lua');
 local prime = {}
 
 prime.generate = function (length)
@@ -15,4 +14,5 @@ prime.is_primal = function (prime)
     return approx
 end
 
-print(prime.is_primal(bigint.new(40000)))
+
+return prime
